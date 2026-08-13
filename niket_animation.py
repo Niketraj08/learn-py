@@ -1,0 +1,42 @@
+import turtle
+import time
+
+# Set up the screen environment
+screen = turtle.Screen()
+screen.setup(width=800, height=600)
+screen.bgcolor("black")
+screen.title("Python Animation for Niket")
+
+# Create a turtle for the geometric background animation
+drawer = turtle.Turtle()
+drawer.speed(0)
+drawer.width(2)
+drawer.hideturtle()
+
+# Dynamic neon color scheme
+colors = ["#00FFCC", "#FF007F", "#3399FF", "#FFCC00"]
+
+# Create an animated spinning spiral vortex
+for i in range(120):
+    drawer.color(colors[i % 4])
+    drawer.forward(i * 3)
+    drawer.right(91)  # Creates the offset web effect
+
+# Create a separate turtle to display the name
+text_writer = turtle.Turtle()
+text_writer.hideturtle()
+text_writer.penup()
+
+# Move text turtle slightly down to center properly
+text_writer.goto(0, -30)
+
+# Make the text flash neon colors
+for flash in range(5):
+    for color in ["#FFFFFF", "#00FFCC", "#FF007F"]:
+        text_writer.clear()
+        text_writer.color(color)
+        text_writer.write("NIKET", align="center", font=("Arial", 48, "bold"))
+        time.sleep(0.3)
+
+# Keep the window open after the animation completes
+screen.mainloop()
