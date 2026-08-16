@@ -20,7 +20,7 @@ colors = ["#00FFCC", "#FF007F", "#3399FF", "#FFCC00"]
 for i in range(120):
     drawer.color(colors[i % 4])
     drawer.forward(i * 3)
-    drawer.right(91)  # Creates the offset web effect
+    drawer.right(91) 
 
 # Create a separate turtle to display the name
 text_writer = turtle.Turtle()
