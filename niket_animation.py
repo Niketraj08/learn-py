@@ -27,7 +27,7 @@ text_writer = turtle.Turtle()
 text_writer.hideturtle()
 text_writer.penup()
 
-# Move text turtle slightly down to center properly
+
 text_writer.goto(0, -30)
 
 # Make the text flash neon colors
