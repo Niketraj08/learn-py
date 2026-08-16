@@ -7,7 +7,7 @@ screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("Python Animation for Niket")
 
-# Create a turtle for the geometric background animation
+
 drawer = turtle.Turtle()
 drawer.speed(0)
 drawer.width(2)
