@@ -13,7 +13,8 @@ drawer.speed(0)
 drawer.width(2)
 drawer.hideturtle()
 
-# Dynamic neon color scheme
+
+
 colors = ["#00FFCC", "#FF007F", "#3399FF", "#FFCC00"]
 
 
