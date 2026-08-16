@@ -32,11 +32,10 @@ text_writer.goto(0, -30)
 
 # Make the text flash neon colors
 for flash in range(5):
-    for color in ["#FFFFFF", "#00FFCC", "#FF007F"]:
+    for color in ["#FFFFFF", "#212525", "#FF007F"]:
         text_writer.clear()
         text_writer.color(color)
         text_writer.write("NIKET", align="center", font=("Arial", 48, "bold"))
         time.sleep(0.3)
 
-# Keep the window open after the animation completes
 screen.mainloop()
