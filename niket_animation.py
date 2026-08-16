@@ -1,7 +1,8 @@
 import turtle
 import time
 
-# Set up the screen environment
+
+
 screen = turtle.Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
