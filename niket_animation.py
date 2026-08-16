@@ -16,7 +16,8 @@ drawer.hideturtle()
 # Dynamic neon color scheme
 colors = ["#00FFCC", "#FF007F", "#3399FF", "#FFCC00"]
 
-# Create an animated spinning spiral vortex
+
+
 for i in range(120):
     drawer.color(colors[i % 4])
     drawer.forward(i * 3)
