@@ -90,9 +90,7 @@ def draw_name_text():
     artist.write("NIKET", align="center", font=("Arial Rounded MT Bold", 36, "bold"))
 
 
-# ----------------------------------------------------------------
-#  BOY CHARACTER PARTS (static parts jo baar-baar nahi badalte)
-# ----------------------------------------------------------------
+
 
 def draw_static_scene():
     """Background aur boy ke wo hisse jo animate nahi hote."""
