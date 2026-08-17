@@ -102,10 +102,10 @@ def draw_static_scene():
     draw_cloud(-150, 260)
     draw_name_text()
 
-  -
+  
     draw_rectangle(-40, -20, 80, 100, "#42A5F5", "#1565C0")
 
-   -
+   
     draw_rectangle(-35, -100, 30, 80, "#37474F", "#263238")   # left leg (pant)
     draw_rectangle(5, -100, 30, 80, "#37474F", "#263238")     # right leg (pant)
 
