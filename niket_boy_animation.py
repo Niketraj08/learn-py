@@ -146,9 +146,7 @@ def draw_static_scene():
     artist.circle(-15, 80)   # smile
 
 
-# ----------------------------------------------------------------
-#  ANIMATED PARTS - EYES (blinking) aur ARM (waving)
-# ----------------------------------------------------------------
+
 
 eye_state = {"open": True}
 wave_state = {"angle": 0, "direction": 1}
