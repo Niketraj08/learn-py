@@ -177,7 +177,6 @@ def draw_waving_arm():
     angle_rad = math.radians(wave_state["angle"])
     shoulder_x, shoulder_y = 40, 60
 
-    # Upper arm (fixed pivot from shoulder)
     hand_x = shoulder_x + 55 * math.sin(angle_rad)
     hand_y = shoulder_y + 55 * math.cos(angle_rad)
 
