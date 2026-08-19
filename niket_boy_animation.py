@@ -18,7 +18,7 @@ screen = turtle.Screen()
 screen.title("Niket - Animated Boy")
 screen.bgcolor("#AEE1F9")   # halka aasmani background
 screen.setup(width=800, height=700)
-screen.tracer(0)            # manual animation control ke liye
+screen.tracer(0)           
 
 
 
