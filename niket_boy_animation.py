@@ -21,7 +21,7 @@ screen.setup(width=800, height=700)
 screen.tracer(0)            # manual animation control ke liye
 
 # ----------------------------------------------------------------
-#  DRAWING TURTLE
+
 artist = turtle.Turtle()
 artist.hideturtle()
 artist.speed(0)
