@@ -20,7 +20,7 @@ screen.bgcolor("#AEE1F9")   # halka aasmani background
 screen.setup(width=800, height=700)
 screen.tracer(0)            # manual animation control ke liye
 
-# ----------------------------------------------------------------
+
 
 artist = turtle.Turtle()
 artist.hideturtle()
