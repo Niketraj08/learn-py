@@ -12,7 +12,7 @@ import turtle
 import math
 
 # ----------------------------------------------------------------
-#  SCREEN SETUP
+
 
 screen = turtle.Screen()
 screen.title("Niket - Animated Boy")
