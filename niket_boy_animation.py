@@ -13,7 +13,7 @@ import math
 
 # ----------------------------------------------------------------
 #  SCREEN SETUP
-# ----------------------------------------------------------------
+
 screen = turtle.Screen()
 screen.title("Niket - Animated Boy")
 screen.bgcolor("#AEE1F9")   # halka aasmani background
